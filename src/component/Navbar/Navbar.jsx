@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from '../../assets/Default.png'
-import { FaServicestack } from 'react-icons/fa';
 import navLogo from '../../assets/navLogo.png'
 
 
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar bg-[#EAEEFE] shadow-sm px-8">
+        <div className='max-w-7xl mx-auto'>
+            <div className="navbar bg-[#EAEEFE] px-8">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +42,7 @@ const Navbar = () => {
                         <li><a>Help</a></li>
                     </ul>
                 </div>
-                    <a className="btn bg-black text-white rounded-xl">Get for free</a>
+                    <a className="btn bg-black hover:bg-linear-to-r from-[#170cb8b0] to-[#cf15e7] text-white rounded-xl">Get for free</a>
                 </div>
             </div>
         </div>

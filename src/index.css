@@ -8,3 +8,26 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+@theme {
+  
+  --animate-smooth-float: smooth-float 6s ease-in-out infinite;
+  --animate-slow-spin: slow-spin 12s linear infinite;
+
+  @keyframes smooth-float {
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    33% {
+      transform: translateY(-15px) rotate(2deg);
+    }
+    66% {
+      transform: translateY(-5px) rotate(-2deg);
+    }
+  }
+
+  @keyframes slow-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
