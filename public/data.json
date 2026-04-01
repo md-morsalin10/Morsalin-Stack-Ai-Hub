@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "name": "Canva",
+        "category": "design",
+        "description": "Easy-to-use graphic design tool for social media.",
+        "price": 0,
+        "period": "free",
+        "tag": "Most Popular",
+        "tagType": "success",
+        "features": [
+            "Templates",
+            "Drag & Drop",
+            "Export PNG"
+        ],
+        "icon": "https://static.vecteezy.com/system/resources/previews/060/301/899/non_2x/canva-logo-on-white-shape-free-png.png"
+    },
+    {
+        "id": 2,
+        "name": "ChatGPT Plus",
+        "category": "ai",
+        "description": "Advanced AI language model for writing and coding.",
+        "price": 20,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "primary",
+        "features": [
+            "GPT-4 Access",
+            "DALL-E 3",
+            "Data Analysis"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12222/12222560.png"
+    },
+    {
+        "id": 3,
+        "name": "Figma",
+        "category": "design",
+        "description": "Collaborative interface a good design tool for UI/UX.",
+        "price": 15,
+        "period": "monthly",
+        "tag": "Top Choice",
+        "tagType": "primary",
+        "features": [
+            "Collaboration",
+            "Prototyping",
+            "Dev Mode"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968704.png"
+    },
+    {
+        "id": 4,
+        "name": "Midjourney AI",
+        "category": "ai",
+        "description": "AI tool for generating high-quality artistic images.",
+        "price": 30,
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "error",
+        "features": [
+            "Realistic Art",
+            "V6 Engine",
+            "Fast Mode"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12105/12105151.png"
+    },
+    {
+        "id": 5,
+        "name": "Adobe Photoshop",
+        "category": "design",
+        "description": "Industry standard photo editing famous software.",
+        "price": 25,
+        "period": "monthly",
+        "tag": "Professional",
+        "tagType": "error",
+        "features": [
+            "Layers",
+            "Neural Filters",
+            "Camera Raw"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png"
+    },
+    {
+        "id": 6,
+        "name": "Jasper AI",
+        "category": "ai",
+        "description": "AI writer for marketing and business good blogs.",
+        "price": 39,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "warning",
+        "features": [
+            "SEO Mode",
+            "Brand Voice",
+            "50+ Templates"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/10061/10061803.png"
+    },
+    {
+        "id": 7,
+        "name": "Framer",
+        "category": "design",
+        "description": "Interactive design and website builder.",
+        "price": 12,
+        "period": "monthly",
+        "tag": "Modern",
+        "tagType": "secondary",
+        "features": [
+            "CMS",
+            "Animations",
+            "SEO Tools"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968703.png"
+    },
+    {
+        "id": 8,
+        "name": "GitHub Copilot",
+        "category": "ai",
+        "description": "AI pair programmer for faster smother coding.",
+        "price": 10,
+        "period": "monthly",
+        "tag": "Most Popular",
+        "tagType": "success",
+        "features": [
+            "Auto-suggest",
+            "Chat Support",
+            "CLI Tool"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+        "id": 9,
+        "name": "Affinity Designer",
+        "category": "design",
+        "description": "Professional vector graphic design software.",
+        "price": 50,
+        "period": "one-time",
+        "tag": "Popular",
+        "tagType": "primary",
+        "features": [
+            "Vector & Raster",
+            "Unlimited Zoom",
+            "No Sub"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968701.png"
+    },
+    {
+        "id": 10,
+        "name": "Grammarly",
+        "category": "ai",
+        "description": "AI writing assistant for clear communication.",
+        "price": 12,
+        "period": "monthly",
+        "tag": "Top Choice",
+        "tagType": "success",
+        "features": [
+            "Plagiarism",
+            "Tone Check",
+            "Style Guide"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12308/12308365.png"
+    },
+    {
+        "id": 11,
+        "name": "Sketch",
+        "category": "design",
+        "description": "Design platform for macOS users.",
+        "price": 10,
+        "period": "monthly",
+        "tag": "Classic",
+        "tagType": "warning",
+        "features": [
+            "Symbols",
+            "Overlays",
+            "Shared Libraries"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968706.png"
+    },
+    {
+        "id": 12,
+        "name": "Notion AI",
+        "category": "ai",
+        "description": "Workspace with integrated AI for notes.",
+        "price": 10,
+        "period": "monthly",
+        "tag": "Most Popular",
+        "tagType": "primary",
+        "features": [
+            "Summarize",
+            "Fix Grammar",
+            "Brainstorm"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968914.png"
+    },
+    {
+        "id": 13,
+        "name": "Dribbble Pro",
+        "category": "design",
+        "description": "Platform for design inspiration and jobs.",
+        "price": 5,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "secondary",
+        "features": [
+            "Job Board",
+            "Video Shots",
+            "Pitch"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/2111/2111363.png"
+    },
+    {
+        "id": 14,
+        "name": "ElevenLabs",
+        "category": "ai",
+        "description": "Realistic AI text-to-speech and cloning.",
+        "price": 22,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "warning",
+        "features": [
+            "Voice Cloning",
+            "Multi-language",
+            "API"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12308/12308154.png"
+    },
+    {
+        "id": 15,
+        "name": "Adobe Illustrator",
+        "category": "design",
+        "description": "Vector graphics and logo design tool.",
+        "price": 22,
+        "period": "monthly",
+        "tag": "Most Popular",
+        "tagType": "error",
+        "features": [
+            "Generative Recolor",
+            "Typography",
+            "Paths"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968472.png"
+    },
+    {
+        "id": 16,
+        "name": "Leonardo.ai",
+        "category": "ai",
+        "description": "Generative AI for production-quality assets.",
+        "price": 12,
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "primary",
+        "features": [
+            "Canvas Editor",
+            "Texture Gen",
+            "Models"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12105/12105151.png"
+    },
+    {
+        "id": 17,
+        "name": "InVision",
+        "category": "design",
+        "description": "Digital product design and prototyping.",
+        "price": 8,
+        "period": "monthly",
+        "tag": "Classic",
+        "tagType": "success",
+        "features": [
+            "Freehand",
+            "Prototyping",
+            "Specs"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968702.png"
+    },
+    {
+        "id": 18,
+        "name": "Perplexity AI",
+        "category": "ai",
+        "description": "AI search engine for verified information.",
+        "price": 20,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "secondary",
+        "features": [
+            "Sources Included",
+            "Copilot Mode",
+            "File Upload"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12222/12222560.png"
+    },
+    {
+        "id": 19,
+        "name": "Procreate",
+        "category": "design",
+        "description": "Powerful digital illustration app for iPad.",
+        "price": 13,
+        "period": "one-time",
+        "tag": "Most Popular",
+        "tagType": "error",
+        "features": [
+            "3D Painting",
+            "Brushes",
+            "Timelapse"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968706.png"
+    },
+    {
+        "id": 20,
+        "name": "Claude.ai",
+        "category": "ai",
+        "description": "Helpful, harmless, and honest AI assistant.",
+        "price": 20,
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "primary",
+        "features": [
+            "Large Context",
+            "Artifacts",
+            "Vision"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12222/12222560.png"
+    },
+    {
+        "id": 21,
+        "name": "Behance Pro",
+        "category": "design",
+        "description": "Showcase your portfolio to the world.",
+        "price": 10,
+        "period": "monthly",
+        "tag": "Top Choice",
+        "tagType": "success",
+        "features": [
+            "Analytics",
+            "Unlimited Projects",
+            "Jobs"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/145/145799.png"
+    },
+    {
+        "id": 22,
+        "name": "Runway Gen-2",
+        "category": "ai",
+        "description": "Next-gen AI video generation tool.",
+        "price": 15,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "error",
+        "features": [
+            "Text to Video",
+            "Motion Brush",
+            "Multi-motion"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/10061/10061817.png"
+    },
+    {
+        "id": 23,
+        "name": "CorelDRAW",
+        "category": "design",
+        "description": "Professional graphic design software suite.",
+        "price": 249,
+        "period": "yearly",
+        "tag": "Popular",
+        "tagType": "primary",
+        "features": [
+            "Vector Illustration",
+            "Photo Edit",
+            "Page Layout"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968701.png"
+    },
+    {
+        "id": 24,
+        "name": "Otter.ai",
+        "category": "ai",
+        "description": "AI meeting assistant for transcription.",
+        "price": 16,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "success",
+        "features": [
+            "Live Transcribe",
+            "Meeting Notes",
+            "Calendar Sync"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968914.png"
+    },
+    {
+        "id": 25,
+        "name": "Pinterest Ads",
+        "category": "design",
+        "description": "Visual discovery and marketing tool.",
+        "price": 0,
+        "period": "free",
+        "tag": "Popular",
+        "tagType": "secondary",
+        "features": [
+            "Trends",
+            "Visual Search",
+            "Pin Ads"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/145/145808.png"
+    },
+    {
+        "id": 26,
+        "name": "Synthesia",
+        "category": "ai",
+        "description": "AI video creation with realistic avatars.",
+        "price": 30,
+        "period": "monthly",
+        "tag": "Most Popular",
+        "tagType": "warning",
+        "features": [
+            "140+ Languages",
+            "Custom Avatars",
+            "Templates"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/10061/10061817.png"
+    },
+    {
+        "id": 27,
+        "name": "Gravit Designer",
+        "category": "design",
+        "description": "Cross-platform vector design tool.",
+        "price": 49,
+        "period": "yearly",
+        "tag": "New",
+        "tagType": "primary",
+        "features": [
+            "Cross-platform",
+            "SVG Editing",
+            "Cloud Sync"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968703.png"
+    },
+    {
+        "id": 28,
+        "name": "Luma Dream Machine",
+        "category": "ai",
+        "description": "High-fidelity AI video generator.",
+        "price": 25,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "error",
+        "features": [
+            "Realistic Motion",
+            "Physics Aware",
+            "Fast Render"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/12105/12105151.png"
+    },
+    {
+        "id": 29,
+        "name": "Pixlr Pro",
+        "category": "design",
+        "description": "Online photo editor and design tool.",
+        "price": 5,
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "success",
+        "features": [
+            "Quick Edit",
+            "Remove BG",
+            "Templates"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png"
+    },
+    {
+        "id": 30,
+        "name": "Suno AI",
+        "category": "ai",
+        "description": "AI music generator for songs and audio.",
+        "price": 10,
+        "period": "monthly",
+        "tag": "Most Popular",
+        "tagType": "primary",
+        "features": [
+            "Full Songs",
+            "Custom Lyrics",
+            "High Quality"
+        ],
+        "icon": "https://img.alicdn.com/imgextra/i3/O1CN01zaxxvj1p4f0VrY17j_!!6000000005307-54-tps-180-180.apng"
+    }
+]
