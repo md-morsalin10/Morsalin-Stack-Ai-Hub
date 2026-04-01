@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "planName": "Free",
+        "price": 0,
+        "period": "/monthly",
+        "description": "Perfect for individuals starting their AI journey.",
+        "buttonText": "Get started for free",
+        "isPopular": false,
+        "features": [
+            "Up to 5 project members",
+            "Unlimited tasks and projects",
+            "2GB storage",
+            "Integrations",
+            "Basic support"
+        ],
+        "theme": "light"
+    },
+    {
+        "id": 2,
+        "planName": "Pro",
+        "price": 9,
+        "period": "/monthly",
+        "description": "For professionals who need more power and storage.",
+        "buttonText": "Sign up now",
+        "isPopular": true,
+        "tag": "Most Popular",
+        "features": [
+            "Up to 50 project members",
+            "Unlimited tasks and projects",
+            "50GB storage",
+            "Integrations",
+            "Priority support",
+            "Advanced support",
+            "Export support"
+        ],
+        "theme": "dark"
+    },
+    {
+        "id": 3,
+        "planName": "Business",
+        "price": 19,
+        "period": "/monthly",
+        "description": "Complete solution for teams and growing businesses.",
+        "buttonText": "Sign up now",
+        "isPopular": false,
+        "features": [
+            "Unlimited project members",
+            "Unlimited tasks and projects",
+            "200GB storage",
+            "Integrations",
+            "Dedicated account manager",
+            "Custom fields",
+            "Advanced analytics",
+            "Export capabilities",
+            "API access",
+            "Advanced security features"
+        ],
+        "theme": "light"
+    }
+]

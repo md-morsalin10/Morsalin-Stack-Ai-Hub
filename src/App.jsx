@@ -8,8 +8,12 @@ import Ratting from './component/Ratting/Ratting'
 import TabSection from './component/TabSection/TabSection'
 import CartsSection from './component/CartsSection/CartsSection'
 import Solutions from './component/Solutions/Solutions'
+import PricingSection from './component/PricingSection/PricingSection'
+import FoBanner from './component/FoBanner/FoBanner'
+import Footer from './component/Footer/Footer'
 
-const dataPromise = fetch('/data.json').then(res => res.json())
+const dataPromise = fetch('/data.json').then(res => res.json());
+const pricingPromise = fetch('/pricing.json').then(res=> res.json())
 
 function App() {
 
@@ -31,6 +35,13 @@ function App() {
       }
 
       <Solutions></Solutions>
+
+      <Suspense fallback={<h2>Loading....</h2>}>
+        <PricingSection pricingPromise={pricingPromise}></PricingSection>
+      </Suspense>
+      
+      <FoBanner/>
+      <Footer/>
 
     </>
   )

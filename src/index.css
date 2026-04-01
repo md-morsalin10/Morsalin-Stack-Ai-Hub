@@ -31,3 +31,17 @@
     to { transform: rotate(360deg); }
   }
 }
+
+@theme {
+ 
+  --animate-slow-spin: slow-spin 10s linear infinite;
+
+  @keyframes slow-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

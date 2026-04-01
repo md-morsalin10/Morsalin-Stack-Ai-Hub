@@ -9,14 +9,14 @@ const CartsSection = ({ carts, setCarts }) => {
         setCarts([])
     }
     return (
-        <div className='py-10 border max-w-7xl mx-auto m-5 rounded-2xl border-fuchsia-100 bg-base-200'>
+        <div className='py-10 border max-w-7xl mx-auto m-5 rounded-2xl  p-6 md:p-5 border-fuchsia-100 bg-base-200'>
             {carts.length === 0 &&
                 <div className='flex justify-center items-center border-gray-300 h-52 rounded-2xl p-5 bg-base-300 border max-w-4xl mx-auto'>
                     <p className='font-bold text-2xl'> No Carts Available </p>
                 </div>}
 
             {carts.length > 0 &&
-                <h2 className='text-center pt-0 text-2xl font-bold'>Your Selected Carts</h2>
+                <h2 className='text-center py-5 text-2xl font-bold'>Your Selected Carts</h2>
             }
             <div className='max-w-6xl mx-auto'>
                 {
@@ -30,7 +30,7 @@ const CartsSection = ({ carts, setCarts }) => {
             }
 
             {carts.length > 0 &&
-                <div className='max-w-6xl mx-auto flex text-white justify-between my-3 items-center border p-6 rounded-2xl  bg-linear-to-b from-[#1303f3fd] to-[#1f12d4]'>
+                <div className='max-w-6xl mx-auto flex text-white justify-between my-5 lg:my-8 items-center border p-6 rounded-2xl  bg-linear-to-b from-[#1303f3fd] to-[#1f12d4]'>
                     <div>
                         <h2 className='text-4xl font-bold'>Total</h2>
                     </div>

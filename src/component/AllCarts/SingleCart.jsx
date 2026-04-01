@@ -27,13 +27,13 @@ const SingleCart = ({ card, setCarts, carts }) => {
                     <p className='text-gray-500'>/{period}</p>
                 </div>
                 <div>
-                    {features.map(feature => <p className='flex  items-center gap-1 text-gray-500 py-1'><IoMdCheckmarkCircleOutline size={22} className='text-green-500' /> {feature}</p>)}
+                    {features.map((feature , ind)=> <p key={ind} className='flex  items-center gap-1 text-gray-500 py-1'><IoMdCheckmarkCircleOutline size={22} className='text-green-500' /> {feature}</p>)}
                 </div>
             </div>
             <div className='px-5 flex-1 pb-4'>
                 <button 
                 onClick={()=>handleSubcribedbtn(card)}
-                className={`btn w-full   text-white rounded-3xl py-6 ${clicked ? 'bg-green-600' : 'bg-linear-to-r from-[#170bc4b0] to-[#cf15e7]'}`}>{clicked ? 'Subscribed' : 'Subscibe Now'}</button>
+                className={`btn w-full   text-white rounded-3xl py-6 ${clicked ? 'bg-green-600' : 'bg-linear-to-r from-[#7000FF] to-[#AD00FF]'}`}>{clicked ? 'Subscribed' : 'Subscibe Now'}</button>
             </div>
 
             <div className='absolute top-2 right-2'>
