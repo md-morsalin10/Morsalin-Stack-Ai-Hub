@@ -1,6 +1,6 @@
 
 
-const TabSection = ({tabActive, setTabActive}) => {
+const TabSection = ({tabActive, setTabActive, carts}) => {
     
 
     const handleTabBtn= (category) => {
@@ -31,6 +31,13 @@ const TabSection = ({tabActive, setTabActive}) => {
                 name="my_tabs_1" 
                 className={`tab w-35 rounded-2xl ${tabActive === "design" && 'bg-[#170cb8b0] text-white'}`} 
                 aria-label="Design Tools" />
+
+                <input 
+                onClick={()=> handleTabBtn('cart')}
+                type="radio" 
+                name="my_tabs_1" 
+                className={`tab w-35 rounded-2xl ${tabActive === "cart" && 'bg-pink-600 text-white'}`} 
+                aria-label={`Cars (${carts.length})`} />
 
             </div>
         </div>

@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
 
 
-const SingleCart = ({ card }) => {
-    console.log(card);
+const SingleCart = ({ card, setCarts, carts }) => {
+    // console.log(card);
+    const [clicked, setClicked] = useState(false)
+    const handleSubcribedbtn = (card) =>{
+        setCarts([...carts, card])
+        setClicked(true)
+    }
+
     const { icon, name, description, price, period, features, tag } = card;
 
     return (
@@ -13,7 +19,7 @@ const SingleCart = ({ card }) => {
             </div>
             <div className='p-4 space-y-3 flex flex-col grow'>
                 <div className='flex flex-col grow'>
-                    <h2 className='text-3xl font-bold bg-linear-to-b from-[#170cb8b0] to-[#cf15e7] bg-clip-text text-transparent'>{name}</h2>
+                    <h2 className='text-2xl font-bold bg-linear-to-b from-[#170cb8b0] to-[#cf15e7] bg-clip-text text-transparent'>{name}</h2>
                     <p className='text-gray-500'>{description}</p>
                 </div>
                 <div className='flex items-end'>
@@ -25,7 +31,9 @@ const SingleCart = ({ card }) => {
                 </div>
             </div>
             <div className='px-5 flex-1 pb-4'>
-                <button className='btn w-full   text-white rounded-3xl py-6 bg-linear-to-r from-[#170bc4b0] to-[#cf15e7]'>Subscribe</button>
+                <button 
+                onClick={()=>handleSubcribedbtn(card)}
+                className={`btn w-full   text-white rounded-3xl py-6 ${clicked ? 'bg-green-600' : 'bg-linear-to-r from-[#170bc4b0] to-[#cf15e7]'}`}>{clicked ? 'Subscribed' : 'Subscibe Now'}</button>
             </div>
 
             <div className='absolute top-2 right-2'>
