@@ -5,7 +5,7 @@ const PricingCard = ({ priceCard }) => {
 
     return (
 
-        <div className={`relative p-8 rounded-3xl transition-all duration-500 flex flex-col w-full 
+        <div className={`hover:-translate-y-2 hover:shadow-3xl hover:border-purple-400/80 hover:shadow-[0_20px_50px_rgba(112,0,255,0.15)] hover:scale-[1.01] relative p-8 rounded-3xl transition-all duration-500 flex flex-col w-full 
             ${planName === "Pro" ? "bg-linear-to-b from-[#7000FF] to-[#AD00FF] text-white md:scale-110 z-10 shadow-2xl border-none min-h-155" 
                 : "bg-white hover:bg-zinc-200  text-black border border-zinc-200 min-h-137.5 shadow-sm"}
         `}>

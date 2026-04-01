@@ -2,6 +2,7 @@ import React from 'react';
 import bannerImg from '../../assets/Visual.png'
 import cylinder from '../../assets/cylinder1.png'
 import half from '../../assets/half-torus.png'
+import { IoMdArrowForward } from 'react-icons/io';
 
 const BannerSection = () => {
     return (
@@ -21,7 +22,7 @@ const BannerSection = () => {
 
                         <div>
                             <button className='btn bg-black text-white  border-none mr-3'>Get for free</button>
-                            <button className='btn bg-transparent hover:bg-linear-to-r from-[#7000FF] to-[#AD00FF]border-white hover:text-white text-[#000000]'>Learn more</button>
+                            <button className='btn bg-transparent hover:bg-linear-to-r from-[#7000FF] to-[#AD00FF]border-white hover:text-white text-[#000000]'>Learn more <IoMdArrowForward /></button>
                         </div>
                     </div>
                     <div className='absolute left-140 hidden lg:block top-4 animate-smooth-float'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import star from '../../assets/emojistar.png'
 import helix from '../../assets/helix2.png'
+import { IoMdArrowForward } from 'react-icons/io';
 
 const FoBanner = () => {
     return (
@@ -14,7 +15,7 @@ const FoBanner = () => {
 
                 <div>
                     <button className='btn bg-black text-white  border-none mr-3'>Get for free</button>
-                    <button className='btn bg-transparent hover:bg-linear-to-r from-[#170cb8b0] to-[#cf15e7] border-white hover:text-white text-[#000000]'>Learn more</button>
+                    <button className='btn bg-transparent hover:bg-linear-to-r from-[#170cb8b0] to-[#cf15e7] border-white hover:text-white text-[#000000]'>Learn more <IoMdArrowForward /></button>
                 </div>
             </div>
             <div>

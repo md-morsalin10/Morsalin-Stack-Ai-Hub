@@ -11,9 +11,10 @@ import Solutions from './component/Solutions/Solutions'
 import PricingSection from './component/PricingSection/PricingSection'
 import FoBanner from './component/FoBanner/FoBanner'
 import Footer from './component/Footer/Footer'
+import { ToastContainer } from 'react-toastify'
 
 const dataPromise = fetch('/data.json').then(res => res.json());
-const pricingPromise = fetch('/pricing.json').then(res=> res.json())
+const pricingPromise = fetch('/pricing.json').then(res => res.json())
 
 function App() {
 
@@ -27,7 +28,9 @@ function App() {
       <BannerSection />
       <Ratting />
       <TabSection tabActive={tabActive} carts={carts} setTabActive={setTabActive} />
-      <Suspense fallback={<p>Loading.....</p>}>
+      <Suspense fallback={<div className='flex justify-center items-center text-pink-500'>
+        <span className="loading loading-spinner loading-xl"></span>
+      </div>}>
         <AllCarts carts={carts} setCarts={setCarts} tabActive={tabActive} setTabActive={setTabActive} dataPromise={dataPromise} />
       </Suspense>
       {tabActive === 'cart' &&
@@ -36,12 +39,15 @@ function App() {
 
       <Solutions></Solutions>
 
-      <Suspense fallback={<h2>Loading....</h2>}>
+      <Suspense fallback={<div className='flex justify-center items-center text-pink-500'>
+        <span className="loading loading-spinner loading-xl"></span>
+      </div>}>
         <PricingSection pricingPromise={pricingPromise}></PricingSection>
       </Suspense>
-      
-      <FoBanner/>
-      <Footer/>
+
+      <FoBanner />
+      <Footer />
+      <ToastContainer />
 
     </>
   )

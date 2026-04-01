@@ -11,7 +11,7 @@ const Solutions = () => {
             </div>
 
             <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 p-5'>
-                <div className='p-5 rounded-2xl shadow-2xl border border-zinc-200'>
+                <div className='p-5 rounded-2xl shadow-2xl border border-zinc-200 transition-all duration-500 hover:-translate-y-2 hover:shadow-3xl hover:border-purple-400/80 hover:shadow-[0_20px_50px_rgba(112,0,255,0.15)] hover:scale-[1.01]'>
                     <div className='flex justify-center items-center m-6'>
                         <img src={cubeHelix} alt=""  className='w-52 h-52 object-contain animate-slow-spin hover:[animation-play-state:paused] [animation-direction:reverse]'/>
                     </div>
@@ -21,7 +21,7 @@ const Solutions = () => {
                     </div>
                 </div>
 
-                <div className='p-5 rounded-2xl shadow-2xl border border-zinc-200'>
+                <div className='p-5 rounded-2xl shadow-2xl border border-zinc-200 transition-all duration-500 hover:-translate-y-2 hover:shadow-3xl hover:border-purple-400/80 hover:shadow-[0_20px_50px_rgba(112,0,255,0.15)] hover:scale-[1.01]'>
                     <div className='flex justify-center items-center m-6'>
                         <img src={cube} alt="" className='w-52 h-52 object-contain animate-slow-spin hover:[animation-play-state:paused]' />
                     </div>
